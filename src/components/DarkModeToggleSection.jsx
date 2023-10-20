@@ -12,7 +12,7 @@ import filledDot from "../assets/ellipse-filled.svg";
 import outlineDot from "../assets/ellipse-outline.svg";
 import Button from "./Button";
 
-const images = [image1, image2, image3]; // Replace with your image URLs
+const images = [image1, image2, image3 ]; // Replace with your image URLs
 
 const DarkModeToggleSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

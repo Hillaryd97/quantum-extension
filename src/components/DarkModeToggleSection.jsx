@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import image1 from "../assets/slideshowImage1.png";
-import image2 from "../assets/slideshowImage2.png";
-import image3 from "../assets/slideshowImage3.png";
+import image1 from "../assets/slideshow1.png";
+import image2 from "../assets/slideshow2.png";
+import image3 from "../assets/slideshow3.png";
 import image4 from "../assets/image1.png";
 import image5 from "../assets/image2.png";
 import image6 from "../assets/image3.png";

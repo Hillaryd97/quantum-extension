@@ -56,11 +56,11 @@ const DarkModeToggleSection = () => {
             onClick={prevSlide}
             className="cursor-pointer"
           />
-          <img
+          {/* <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
             className="w-full"
-          />
+          /> */}
           <img
             src={arrowRight}
             alt=""

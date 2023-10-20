@@ -1,0 +1,13 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 18">
+<rect width="80" height="80" rx="40" fill="#E4E9E2"/>
+<g id="keyboard_arrow_right">
+<mask id="mask0_2418_13" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="22" y="22" width="36" height="36">
+<rect id="Bounding box" x="22" y="22" width="36" height="36" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_2418_13)">
+<path id="keyboard_arrow_right_2" d="M40.9 40L34 33.1L36.1 31L45.1 40L36.1 49L34 46.9L40.9 40Z" fill="#141A14"/>
+</g>
+</g>
+</g>
+</svg>

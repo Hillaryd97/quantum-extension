@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-// import image1 from "../assets/slideshowImage1.png";
-// import image2 from "../assets/slideshowImage2.png";
-// import image3 from "../assets/slideshowImage3.png";
+import image1 from "../assets/slideshowImage1.png";
+import image2 from "../assets/slideshowImage2.png";
+import image3 from "../assets/slideshowImage3.png";
 import image4 from "../assets/image1.png";
 import image5 from "../assets/image2.png";
 import image6 from "../assets/image3.png";
@@ -12,7 +12,7 @@ import filledDot from "../assets/ellipse-filled.svg";
 import outlineDot from "../assets/ellipse-outline.svg";
 import Button from "./Button";
 
-// const images = [image1, image2, image3 ]; // Replace with your image URLs
+const images = [image1, image2, image3]; // Replace with your image URLs
 
 const DarkModeToggleSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -56,11 +56,11 @@ const DarkModeToggleSection = () => {
             onClick={prevSlide}
             className="cursor-pointer"
           />
-          {/* <img
+          <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
             className="w-full"
-          /> */}
+          />
           <img
             src={arrowRight}
             alt=""

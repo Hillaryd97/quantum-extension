@@ -40,22 +40,22 @@ const DarkModeToggleSection = () => {
       <div className="pt-32">
         <div className="flex justify-center items-center flex-col ">
           <div className="flex flex-col justify-around items-center space-y-8 pb-20">
-            <h3 className="text-4xl font-bold text-center w-3/6">
+            <h3 className="lg:text-4xl text-2xl font-bold text-center md:w-3/6">
               Quantum Mode - Turn Any Website Dark with a Single Click
             </h3>
-            <p className="text-xl font-medium text-center w-4/6 px-10">
+            <p className="md:text-xl text-base font-medium text-center md:w-4/6 px-10">
               Quantum Dark Mode Toggle is a Chrome extension that makes it easy
               to switch between dark mode and light mode on any website. With a
               single click, you can transform your browsing experience from
               harsh light to soothing darkness.
             </p>
           </div>
-          <div className="flex gap-16 items-center">
+          <div className="flex gap-16 items-center px-2 md:px-0">
             <img
               src={arrowLeft}
               alt=""
               onClick={prevSlide}
-              className="cursor-pointer"
+              className="cursor-pointer hidden md:block"
             />
             <img
               src={images[currentIndex]}
@@ -66,7 +66,7 @@ const DarkModeToggleSection = () => {
               src={arrowRight}
               alt=""
               onClick={nextSlide}
-              className="cursor-pointer"
+              className="cursor-pointer hidden md:block"
             />
           </div>
           <div className="flex justify-center mt-4">
@@ -114,7 +114,7 @@ const DarkModeToggleSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col text-center md:text-left space-y-6 justify-center ">
+          <div className="order-1 flex flex-col text-center md:text-left space-y-6 justify-center ">
             <h3 className="font-semibold text-xl md:text-3xl">
               Enjoy Browsing in Dark Mode
             </h3>
